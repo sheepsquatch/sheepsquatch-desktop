@@ -27,10 +27,9 @@ uname -v = #1 SMP PREEMPT Sun Mar 10 08:32:42 UTC 2019
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
+PATH: /usr/local/sbin
 PATH: /usr/local/bin
 PATH: /usr/bin
-PATH: /bin
-PATH: /usr/local/sbin
 PATH: /usr/lib/jvm/default/bin
 PATH: /usr/bin/site_perl
 PATH: /usr/bin/vendor_perl

@@ -751,7 +751,7 @@ rrpubincludedir = $(includedir)/sheep/@RR_VERSION@/obrender
 pixmapdir = $(datadir)/pixmaps
 xsddir = $(datadir)/sheep
 appsdir = $(datadir)/applications
-theme = Adapta-Nokto-Maia
+theme = Arc-Dark-OSX
 AUTOMAKE_OPTIONS = subdir-objects foreign
 ACLOCAL_AMFLAGS = -I m4
 INCLUDES = -I.
@@ -1092,9 +1092,12 @@ dist_docxbm_DATA = \
         data/xbm/shade_toggled.xbm \
         data/xbm/shade.xbm
 
-sheepsquatch_themedir = $(themedir)/Adapta-Nokto-Maia/sheep-3
+sheepsquatch_themedir = $(themedir)/Arc-Dark-OSX/sheep-3
 dist_sheepsquatch_theme_DATA = \
-	themes/Adapta-Nokto-Maia/sheep-3/themerc
+	themes/Arc-Dark-OSX/sheep-3/close.xbm \
+	themes/Arc-Dark-OSX/sheep-3/iconify.xbm \
+	themes/Arc-Dark-OSX/sheep-3/max.xbm \
+	themes/Arc-Dark-OSX/sheep-3/themerc
 
 rrpubinclude_HEADERS = \
 	obrender/color.h \
