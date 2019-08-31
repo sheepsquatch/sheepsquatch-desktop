@@ -112,7 +112,8 @@ button_icon = ~/sheep/sheep.svg
 # I know, I know, but this as close to the Windows "flag" icon as it gets...
 button_background_id = 0
 button_padding = 6 2 0
-button_max_icon_size = 24
+button_icon_size = 32
+button_max_icon_size = 32
 button_lclick_command = jgmenu_run
 
 # URxvt
