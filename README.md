@@ -1,4 +1,4 @@
-# sheepsquatch-desktop
+# Sheepsquatch
 An Open Source Desktop based on Openbox by danakj, Tryone144's compton fork and other wonderful stuff! 
 
 # CREDITS:
