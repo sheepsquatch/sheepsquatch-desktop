@@ -5,10 +5,11 @@ An Open Source Desktop based on Openbox by danakj, Tryone144's compton fork and 
 https://github.com/danakj/openbox;<br/>
 https://github.com/tryone144/compton;<br/>
 Hazuki - Redmond-X Tint2 Theme<br/>
+Noah_The_Blob - Inspiration with his flurry desktop,  #### I LOVED 
+IT!<br />
 
-
-# Dependencies:
-rofi hsetroot feh obconf xfce4-power-manager-gtk3 dunst libdbus 
+# Prerequisites:
+rofi hsetroot feh xfce4-power-manager-gtk3 dunst libdbus 
 libnotify tint2 clipit volumeicon lxappearance jgmenu pcmanfm lxsession 
 spacefm
 ## Use at your own risk!
