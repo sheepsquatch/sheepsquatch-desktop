@@ -2,8 +2,9 @@
 An Open Source Desktop based on Openbox by danakj, Tryone144's compton fork and other wonderful stuff! 
 
 # CREDITS:
-https://github.com/danakj/openbox; https://github.com/tryone144/compton
-Hazuki - Redmond-X Tint2 Theme
+https://github.com/danakj/openbox;<br/>
+https://github.com/tryone144/compton;<br/>
+Hazuki - Redmond-X Tint2 Theme<br/>
 
 
 # Dependencies:
@@ -13,11 +14,11 @@ rofi hsetroot feh obconf xfce4-power-manager-gtk3 dunst libdbus libnotify tint2 
 
 # Getting Started:
 
-Compile or get from AUR:
-git://github.com/tryone144/compton.git
-
-AUR: compton-tryone-git
-
+Compile or get from AUR:<br/>
+git://github.com/tryone144/compton.git<br/>
+<br/>
+AUR: compton-tryone-git<br/>
+<br/>
 (This fella did AMAZING work!!!)
 
 ## For ULTIMATE EXPERIENCE:
