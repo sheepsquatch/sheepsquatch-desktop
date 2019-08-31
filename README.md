@@ -41,4 +41,6 @@ Run build.sh
 ![alt 1](https://imgur.com/hBtAVta.png)
 ![alt 2](https://imgur.com/0ubfVCd.png)
 
+#### New Theme (Arc-Dark-OSX merged with Adapta-Nokto-Maia):
+![alt 3](https://imgur.com/bfpA5Yy.png)
 
