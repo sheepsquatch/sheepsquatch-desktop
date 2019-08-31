@@ -8,7 +8,7 @@ Hazuki - Redmond-X Tint2 Theme<br/>
 
 
 # Dependencies:
-rofi hsetroot feh obconf xfce4-power-manager-gtk3 dunst libdbus libnotify tint2 clipit volumeicon lxappearance jgmenu pcmanfm
+rofi hsetroot feh obconf xfce4-power-manager-gtk3 dunst libdbus libnotify tint2 clipit volumeicon lxappearance jgmenu pcmanfm lxsession
 ## Use at your own risk!
 
 
