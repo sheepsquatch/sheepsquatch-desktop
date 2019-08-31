@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=openbox --exit
+Icon=system-log-out
+StartupNotify=false
+Terminal=false
+Categories=System;
+Name=LOGOUT
+Comment=Log out of the Sheepsquatch Shell
