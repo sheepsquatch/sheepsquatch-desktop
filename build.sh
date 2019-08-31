@@ -19,8 +19,7 @@ echo "Creating ~/sheep/ dir...."
 mkdir ~/sheep/
 echo "Installing default wallpapers...."
 ## Set Original G wallpaper
-cp wall ~/sheep/wallpaper
-cp wall2 ~/sheep/wallpaper2
+cp ./wallpapers/* ~/sheep/
 feh --bg-scale ~/sheep/wallpaper
 echo "Copying starticon...."
 ## Copy fire
