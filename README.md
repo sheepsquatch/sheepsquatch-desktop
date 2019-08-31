@@ -38,4 +38,6 @@ Run build.sh
 
 # Screenies:
 
-![alt 1](https://i.imgur.com/UhDsNsU.png)
+![alt 1](https://imgur.com/99UVKc2.png)
+
+
