@@ -620,7 +620,12 @@ static void parse_args(gint *argc, gchar **argv)
             print_help();
             exit(0);
         }
-        else if (!strcmp(argv[i], "--g-fatal-warnings")) {
+	else if (!strcmp(argv[i], "--gnogge")){
+	    
+g_print("....................../´¯/)\n....................,/¯../ \n.................../..../ \n............./´¯/'...'/´¯¯`·¸ \n........../'/.../..../......./¨¯\\ \n........('(...´...´.... ¯~/'...') \n.........\\.................'...../ \n..........''...\\.......... _.·´ \n............\\..............( \n..............\\.............\\...\nHASCHE GNOGGE JA HASCHT DU WELCH JA HASCHT DU WELCH HEY HASCHE GNOGGE HASCHE WELCH????????\nSUBBI DU HASCH DIE GNOGGE GEFUNN :D!!!!111\n");
+	    exit(0);
+	}        
+	else if (!strcmp(argv[i], "--g-fatal-warnings")) {
             g_log_set_always_fatal(G_LOG_LEVEL_CRITICAL);
         }
         else if (!strcmp(argv[i], "--replace")) {

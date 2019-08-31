@@ -191,7 +191,10 @@
 
 <keyboard>
   <chainQuitKey>C-g</chainQuitKey>
-
+  <!-- KEYBINDS FOR SHEEP -->
+  <keybind key="W-T">
+    <action name="GrowToEdge"></action>
+  </keybind>
   <!-- Keybindings for desktop switching -->
   <keybind key="C-A-Left">
     <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action>

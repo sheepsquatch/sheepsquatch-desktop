@@ -500,8 +500,8 @@ am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/version.h.in \
 	$(top_srcdir)/obrender/obrender-3.5.pc.in \
 	$(top_srcdir)/obrender/version.h.in \
 	$(top_srcdir)/obt/obt-3.5.pc.in $(top_srcdir)/obt/version.h.in \
-	ABOUT-NLS AUTHORS COPYING README compile config.guess \
-	config.rpath config.sub depcomp install-sh ltmain.sh missing
+	ABOUT-NLS AUTHORS COPYING compile config.guess config.rpath \
+	config.sub depcomp install-sh ltmain.sh missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -1184,7 +1184,6 @@ dist_noinst_DATA = \
 
 dist_doc_DATA = \
 	COMPLIANCE \
-	README \
 	AUTHORS \
 	CHANGELOG \
 	COPYING \

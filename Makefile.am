@@ -494,7 +494,6 @@ dist_noinst_DATA = \
 
 dist_doc_DATA = \
 	COMPLIANCE \
-	README \
 	AUTHORS \
 	CHANGELOG \
 	COPYING \
