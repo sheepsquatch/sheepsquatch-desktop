@@ -1,5 +1,5 @@
 sheep/sheep-menuframe.o: sheep/menuframe.c /usr/include/stdc-predef.h \
- sheep/menuframe.h sheep/geom.h /usr/include/glib-2.0/glib.h \
+ sheep/frame.h sheep/geom.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
@@ -110,10 +110,10 @@ sheep/sheep-menuframe.o: sheep/menuframe.c /usr/include/stdc-predef.h \
  /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
  /usr/include/bits/setjmp.h \
- /usr/include/glib-2.0/glib/glib-autocleanups.h sheep/window.h \
- sheep/stacking.h /usr/include/X11/Xlib.h /usr/include/X11/X.h \
+ /usr/include/glib-2.0/glib/glib-autocleanups.h obrender/render.h \
+ /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
- obrender/render.h /usr/include/pango-1.0/pango/pangoxft.h \
+ /usr/include/pango-1.0/pango/pangoxft.h \
  /usr/include/pango-1.0/pango/pango-context.h \
  /usr/include/pango-1.0/pango/pango-font.h \
  /usr/include/pango-1.0/pango/pango-coverage.h \
@@ -182,9 +182,10 @@ sheep/sheep-menuframe.o: sheep/menuframe.c /usr/include/stdc-predef.h \
  /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
  /usr/include/X11/keysymdef.h /usr/include/X11/extensions/render.h \
  /usr/include/X11/Xdefs.h obrender/geom.h obrender/version.h \
- obt/keyboard.h sheep/client.h sheep/misc.h sheep/mwm.h obrender/color.h \
- obrender/render.h sheep/menu.h sheep/screen.h sheep/actions.h \
- sheep/frame.h obt/xml.h /usr/include/libxml2/libxml/parser.h \
+ sheep/menuframe.h sheep/window.h sheep/stacking.h obt/keyboard.h \
+ sheep/client.h sheep/misc.h sheep/mwm.h obrender/color.h \
+ obrender/render.h sheep/menu.h sheep/screen.h sheep/actions.h obt/xml.h \
+ /usr/include/libxml2/libxml/parser.h \
  /usr/include/libxml2/libxml/xmlversion.h \
  /usr/include/libxml2/libxml/xmlexports.h \
  /usr/include/libxml2/libxml/tree.h \
@@ -224,7 +225,7 @@ sheep/sheep-menuframe.o: sheep/menuframe.c /usr/include/stdc-predef.h \
 
 /usr/include/stdc-predef.h:
 
-sheep/menuframe.h:
+sheep/frame.h:
 
 sheep/geom.h:
 
@@ -560,9 +561,7 @@ sheep/geom.h:
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-sheep/window.h:
-
-sheep/stacking.h:
+obrender/render.h:
 
 /usr/include/X11/Xlib.h:
 
@@ -571,8 +570,6 @@ sheep/stacking.h:
 /usr/include/X11/Xfuncproto.h:
 
 /usr/include/X11/Xosdefs.h:
-
-obrender/render.h:
 
 /usr/include/pango-1.0/pango/pangoxft.h:
 
@@ -740,6 +737,12 @@ obrender/geom.h:
 
 obrender/version.h:
 
+sheep/menuframe.h:
+
+sheep/window.h:
+
+sheep/stacking.h:
+
 obt/keyboard.h:
 
 sheep/client.h:
@@ -757,8 +760,6 @@ sheep/menu.h:
 sheep/screen.h:
 
 sheep/actions.h:
-
-sheep/frame.h:
 
 obt/xml.h:
 

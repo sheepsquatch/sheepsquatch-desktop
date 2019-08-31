@@ -192,7 +192,35 @@ sheep/sheep-framerender.o: sheep/framerender.c /usr/include/stdc-predef.h \
  /usr/include/X11/extensions/sync.h \
  /usr/include/X11/extensions/syncconst.h sheep/screen.h sheep/client.h \
  sheep/mwm.h sheep/stacking.h sheep/window.h obrender/color.h \
- sheep/framerender.h
+ sheep/config.h sheep/place.h sheep/moveresize.h obt/xml.h \
+ /usr/include/libxml2/libxml/parser.h \
+ /usr/include/libxml2/libxml/xmlversion.h \
+ /usr/include/libxml2/libxml/xmlexports.h \
+ /usr/include/libxml2/libxml/tree.h \
+ /usr/include/libxml2/libxml/xmlstring.h \
+ /usr/include/libxml2/libxml/xmlregexp.h \
+ /usr/include/libxml2/libxml/dict.h /usr/include/libxml2/libxml/hash.h \
+ /usr/include/libxml2/libxml/valid.h \
+ /usr/include/libxml2/libxml/xmlerror.h \
+ /usr/include/libxml2/libxml/list.h \
+ /usr/include/libxml2/libxml/xmlautomata.h \
+ /usr/include/libxml2/libxml/entities.h \
+ /usr/include/libxml2/libxml/encoding.h /usr/include/iconv.h \
+ /usr/include/unicode/ucnv.h /usr/include/unicode/ucnv_err.h \
+ /usr/include/unicode/utypes.h /usr/include/unicode/umachine.h \
+ /usr/include/unicode/ptypes.h /usr/include/unicode/platform.h \
+ /usr/include/unicode/uconfig.h /usr/include/unicode/uvernum.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-uintn.h /usr/include/unicode/urename.h \
+ /usr/include/unicode/uversion.h /usr/include/unicode/utf.h \
+ /usr/include/unicode/utf8.h /usr/include/unicode/utf16.h \
+ /usr/include/unicode/utf_old.h /usr/include/unicode/uenum.h \
+ /usr/include/unicode/localpointer.h /usr/include/libxml2/libxml/xmlIO.h \
+ /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX2.h \
+ /usr/include/libxml2/libxml/xlink.h \
+ /usr/include/libxml2/libxml/xmlmemory.h \
+ /usr/include/libxml2/libxml/threads.h sheep/framerender.h
 
 /usr/include/stdc-predef.h:
 
@@ -749,5 +777,95 @@ sheep/stacking.h:
 sheep/window.h:
 
 obrender/color.h:
+
+sheep/config.h:
+
+sheep/place.h:
+
+sheep/moveresize.h:
+
+obt/xml.h:
+
+/usr/include/libxml2/libxml/parser.h:
+
+/usr/include/libxml2/libxml/xmlversion.h:
+
+/usr/include/libxml2/libxml/xmlexports.h:
+
+/usr/include/libxml2/libxml/tree.h:
+
+/usr/include/libxml2/libxml/xmlstring.h:
+
+/usr/include/libxml2/libxml/xmlregexp.h:
+
+/usr/include/libxml2/libxml/dict.h:
+
+/usr/include/libxml2/libxml/hash.h:
+
+/usr/include/libxml2/libxml/valid.h:
+
+/usr/include/libxml2/libxml/xmlerror.h:
+
+/usr/include/libxml2/libxml/list.h:
+
+/usr/include/libxml2/libxml/xmlautomata.h:
+
+/usr/include/libxml2/libxml/entities.h:
+
+/usr/include/libxml2/libxml/encoding.h:
+
+/usr/include/iconv.h:
+
+/usr/include/unicode/ucnv.h:
+
+/usr/include/unicode/ucnv_err.h:
+
+/usr/include/unicode/utypes.h:
+
+/usr/include/unicode/umachine.h:
+
+/usr/include/unicode/ptypes.h:
+
+/usr/include/unicode/platform.h:
+
+/usr/include/unicode/uconfig.h:
+
+/usr/include/unicode/uvernum.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/unicode/urename.h:
+
+/usr/include/unicode/uversion.h:
+
+/usr/include/unicode/utf.h:
+
+/usr/include/unicode/utf8.h:
+
+/usr/include/unicode/utf16.h:
+
+/usr/include/unicode/utf_old.h:
+
+/usr/include/unicode/uenum.h:
+
+/usr/include/unicode/localpointer.h:
+
+/usr/include/libxml2/libxml/xmlIO.h:
+
+/usr/include/libxml2/libxml/globals.h:
+
+/usr/include/libxml2/libxml/SAX2.h:
+
+/usr/include/libxml2/libxml/xlink.h:
+
+/usr/include/libxml2/libxml/xmlmemory.h:
+
+/usr/include/libxml2/libxml/threads.h:
 
 sheep/framerender.h:
