@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Sheepsquatch
+Comment=Log in using sheepsquatch
+Exec=@bindir@/sheep-session
+TryExec=@bindir@/sheep-session
+Icon=sheep
+Type=Application

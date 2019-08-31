@@ -1,0 +1,17 @@
+     ../sheep/actions.c \
+     ../sheep/actions/execute.c \
+     ../sheep/actions/exit.c \
+     ../sheep/client.c \
+     ../sheep/client_list_combined_menu.c \
+     ../sheep/client_list_menu.c \
+     ../sheep/client_menu.c \
+     ../sheep/config.c \
+     ../sheep/debug.c \
+     ../sheep/keyboard.c \
+     ../sheep/menu.c \
+     ../sheep/mouse.c \
+     ../sheep/sheep.c \
+     ../sheep/screen.c \
+     ../sheep/startupnotify.c \
+     ../sheep/translate.c \
+     ../sheep/prompt.c

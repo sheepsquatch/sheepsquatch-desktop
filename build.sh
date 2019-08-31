@@ -1,11 +1,9 @@
 #!/bin/bash
 
-cd ob-sheepsquatch
 ./bootstrap
 ./configure --prefix=/usr --sysconfdir=/etc --libdir=/usr/lib64
 make
 sudo make install
-cd ..
 echo "Installing Tint2 Theme...."
 mkdir ~/.config/tint2/
 ## Install Tint2 Theme
@@ -29,6 +27,6 @@ cp sheep.svg ~/sheep/sheep.svg
 ##echo "Installing Customizations to openbox...."
 ## Install openbox customization
 mkdir -p ~/.config/sheep/
-cp ob-sheepsquatch/data/autostart/autostart ~/.config/openbox/autostart
+cp ./data/autostart/autostart ~/.config/openbox/autostart
 echo "Hooking up LOGOUT function to jgmenu...."
 sudo cp sheeplogout.desktop /usr/share/applications/

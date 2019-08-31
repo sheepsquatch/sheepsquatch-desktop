@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=Sheepsquatch
+Exec=sheep-session
+Icon=sheep
+NoDisplay=true
+# name we put on the WM spec check window
+X-GNOME-WMName=Sheepsquatch
+# gnome-session autostart
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+# Ubuntu stuff
+X-Ubuntu-Gettext-Domain=Sheepsquatch
+# back compat
+X-GNOME-Autostart-Notify=true

@@ -1,0 +1,6 @@
+?package(sheep):\
+  needs="wm"\
+  section="WindowManagers"\
+  title="Openbox"\
+  command="/usr/bin/sheep"\
+  icon="/usr/share/pixmaps/sheep.png"

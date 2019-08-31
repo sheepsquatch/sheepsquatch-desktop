@@ -1,0 +1,486 @@
+# Italian translation for Openbox
+# Copyright (C) 2007-2010 Davide Truffa
+# Copyright (C) 2008 Andrea Scarpino
+# This file is distributed under the same license as the sheep package.
+# Davide Truffa <davide@catoblepa.org>, 2007-2010.
+# Andrea Scarpino <bash.lnx@gmail.com>, 2008.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Openbox 3.4.11.2\n"
+"Report-Msgid-Bugs-To: http://bugzilla.icculus.org\n"
+"POT-Creation-Date: 2014-11-05 16:51+0100\n"
+"PO-Revision-Date: 2010-08-22 21:33+0200\n"
+"Last-Translator: Davide Truffa <davide@catoblepa.org>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: sheep/actions.c:234
+#, c-format
+msgid "Invalid action \"%s\" requested. No such action exists."
+msgstr "L'azione \"%s\" richiesta non è valida e non esiste."
+
+#: sheep/actions/execute.c:245
+msgid "No"
+msgstr "No"
+
+#: sheep/actions/execute.c:246
+msgid "Yes"
+msgstr "Si"
+
+#: sheep/actions/execute.c:250
+msgid "Execute"
+msgstr "Esegui"
+
+#: sheep/actions/execute.c:259
+#, c-format
+msgid "Failed to convert the path \"%s\" from utf8"
+msgstr "Impossibile convertire il percorso utf8 \"%s\""
+
+#: sheep/actions/exit.c:69 sheep/client.c:3665
+msgid "Cancel"
+msgstr "Annulla"
+
+#: sheep/actions/exit.c:70
+msgid "Exit"
+msgstr "Esci"
+
+#: sheep/actions/exit.c:74
+msgid "Are you sure you want to log out?"
+msgstr "Sicuro di volerti disconnettere?"
+
+#: sheep/actions/exit.c:75
+msgid "Log Out"
+msgstr "Esci"
+
+#: sheep/actions/exit.c:78
+msgid "Are you sure you want to exit Openbox?"
+msgstr "Sicuro di voler uscire da Openbox?"
+
+#: sheep/actions/exit.c:79
+msgid "Exit Openbox"
+msgstr "Esci da Openbox"
+
+#: sheep/client.c:2115
+msgid "Unnamed Window"
+msgstr "Finestra senza nome"
+
+#: sheep/client.c:2129 sheep/client.c:2160
+msgid "Killing..."
+msgstr "Termino..."
+
+#: sheep/client.c:2131 sheep/client.c:2162
+msgid "Not Responding"
+msgstr "Non Risponde"
+
+#: sheep/client.c:3654
+#, c-format
+msgid ""
+"The window \"%s\" does not seem to be responding.  Do you want to force it "
+"to exit by sending the %s signal?"
+msgstr ""
+"La finestra \"%s\" sembra non rispondere. Vuoi forzarne l'uscita inviando il "
+"segnale %s?"
+
+#: sheep/client.c:3656
+msgid "End Process"
+msgstr "Termina Processo"
+
+#: sheep/client.c:3660
+#, c-format
+msgid ""
+"The window \"%s\" does not seem to be responding.  Do you want to disconnect "
+"it from the X server?"
+msgstr ""
+"La finestra \"%s\" non sembra rispondere. Vuoi disconnetterla dal server X?"
+
+#: sheep/client.c:3662
+msgid "Disconnect"
+msgstr "Disconnesso"
+
+#: sheep/client_list_combined_menu.c:93 sheep/client_list_menu.c:90
+msgid "Go there..."
+msgstr "Spostati qui..."
+
+#: sheep/client_list_combined_menu.c:100
+msgid "Manage desktops"
+msgstr "Gestisci i desktop"
+
+#: sheep/client_list_combined_menu.c:101 sheep/client_list_menu.c:166
+msgid "_Add new desktop"
+msgstr "_Aggiungi nuovo desktop"
+
+#: sheep/client_list_combined_menu.c:102 sheep/client_list_menu.c:167
+msgid "_Remove last desktop"
+msgstr "_Rimuovi ultimo desktop"
+
+#: sheep/client_list_combined_menu.c:157
+msgid "Windows"
+msgstr "Finestre"
+
+#: sheep/client_list_menu.c:214
+msgid "Desktops"
+msgstr "Desktop"
+
+#: sheep/client_menu.c:259
+msgid "All desktops"
+msgstr "Tutti i desktop"
+
+#: sheep/client_menu.c:371
+msgid "_Layer"
+msgstr "_Livello"
+
+#: sheep/client_menu.c:376
+msgid "Always on _top"
+msgstr "Sempre _sopra"
+
+#: sheep/client_menu.c:377
+msgid "_Normal"
+msgstr "_Normale"
+
+#: sheep/client_menu.c:378
+msgid "Always on _bottom"
+msgstr "Sempre s_otto"
+
+#: sheep/client_menu.c:380
+msgid "_Send to desktop"
+msgstr "Invia al _desktop"
+
+#: sheep/client_menu.c:384
+msgid "Client menu"
+msgstr "Menù della finestra"
+
+#: sheep/client_menu.c:394
+msgid "R_estore"
+msgstr "_Ripristina"
+
+#: sheep/client_menu.c:398
+msgid "_Move"
+msgstr "_Muovi"
+
+#: sheep/client_menu.c:400
+msgid "Resi_ze"
+msgstr "R_idimensiona"
+
+#: sheep/client_menu.c:402
+msgid "Ico_nify"
+msgstr "Mi_nimizza"
+
+#: sheep/client_menu.c:406
+msgid "Ma_ximize"
+msgstr "Ma_ssimizza"
+
+#: sheep/client_menu.c:410
+msgid "_Roll up/down"
+msgstr "A_rrotola"
+
+#: sheep/client_menu.c:414
+msgid "Un/_Decorate"
+msgstr "Si/No _Decorazioni"
+
+#: sheep/client_menu.c:418
+msgid "_Close"
+msgstr "_Chiudi"
+
+#: sheep/config.c:563
+#, c-format
+msgid "Invalid context \"%s\" in mouse binding"
+msgstr "Il contesto \"%s\" indicato nelle associazioni mouse non è valido"
+
+#: sheep/config.c:931
+#, c-format
+msgid "Invalid button \"%s\" specified in config file"
+msgstr "Il pulsante \"%s\" indicato nel file di configurazione non è valido"
+
+#: sheep/config.c:956
+msgid ""
+"Openbox was compiled without image loading support. Icons in menus will not "
+"be loaded."
+msgstr ""
+
+#: sheep/debug.c:57
+#, c-format
+msgid "Unable to make directory '%s': %s"
+msgstr ""
+
+#: sheep/debug.c:195 sheep/sheep.c:377
+msgid "Close"
+msgstr "Chiudi"
+
+#: sheep/keyboard.c:161
+msgid "Conflict with key binding in config file"
+msgstr "Conflitto con l'associazione tasti indicata nel file di configurazione"
+
+#: sheep/menu.c:103 sheep/menu.c:115
+#, c-format
+msgid "Unable to find a valid menu file \"%s\""
+msgstr "Impossibile trovare il file di menù \"%s\""
+
+#: sheep/menu.c:168
+#, c-format
+msgid "Failed to execute command for pipe-menu \"%s\": %s"
+msgstr "Impossibile eseguire il comando nel pipe-menù \"%s\": %s"
+
+#: sheep/menu.c:182
+#, c-format
+msgid "Invalid output from pipe-menu \"%s\""
+msgstr "Output del pipe-menù \"%s\" non valido"
+
+#: sheep/menu.c:195
+#, c-format
+msgid "Attempted to access menu \"%s\" but it does not exist"
+msgstr "Il menù \"%s\" a cui si sta tentando di accedere non esiste"
+
+#: sheep/menu.c:411 sheep/menu.c:412
+msgid "More..."
+msgstr "Altri..."
+
+#: sheep/mouse.c:382
+#, c-format
+msgid "Invalid button \"%s\" in mouse binding"
+msgstr "Il pulsante \"%s\" indicato nelle associazioni mouse non è valido"
+
+#: sheep/sheep.c:137
+#, c-format
+msgid "Unable to change to home directory \"%s\": %s"
+msgstr "Impossibile accedere alla directory home \"%s\": %s"
+
+#: sheep/sheep.c:152
+msgid "Failed to open the display from the DISPLAY environment variable."
+msgstr "Impossibile accedere allo schermo indicato nella variabile DISPLAY."
+
+#: sheep/sheep.c:182
+msgid "Failed to initialize the obrender library."
+msgstr "Impossibile inizializzare la libreria obrender."
+
+#: sheep/sheep.c:193
+msgid "X server does not support locale."
+msgstr "Il server X non ha il supporto per la localizzazione."
+
+#: sheep/sheep.c:195
+msgid "Cannot set locale modifiers for the X server."
+msgstr ""
+"Impossibile impostare i tasti modificatori localizzati per il server X."
+
+#: sheep/sheep.c:254
+msgid "Unable to find a valid config file, using some simple defaults"
+msgstr ""
+"Impossibile trovare un file di configurazione valido, verranno utilizzate le "
+"impostazioni predefinite"
+
+#: sheep/sheep.c:270
+#, c-format
+msgid ""
+"One or more XML syntax errors were found while parsing the Openbox "
+"configuration files.  See stdout for more information.  The last error seen "
+"was in file \"%s\" line %d, with message: %s"
+msgstr ""
+"Sono stati trovati uno o più errori nel file di configurazione di Openbox. "
+"Vedi stdout per ulteriori informazioni. L'ultimo errore era in \"%s\" alla "
+"linea %d, con il messaggio: %s"
+
+#: sheep/sheep.c:295
+msgid "Unable to load a theme."
+msgstr "Impossibile caricare un tema."
+
+#: sheep/sheep.c:376
+msgid "Openbox Syntax Error"
+msgstr "Errore di sintassi"
+
+#: sheep/sheep.c:442
+#, c-format
+msgid "Restart failed to execute new executable \"%s\": %s"
+msgstr "Non è stato possibile riavviare il nuovo eseguibile \"%s\": %s"
+
+#: sheep/sheep.c:521 sheep/sheep.c:523
+msgid "Copyright (c)"
+msgstr "Copyright (c)"
+
+#: sheep/sheep.c:532
+msgid "Syntax: sheep [options]\n"
+msgstr "Sintassi: sheep [opzioni]\n"
+
+#: sheep/sheep.c:533
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"Opzioni:\n"
+
+#: sheep/sheep.c:534
+msgid "  --help              Display this help and exit\n"
+msgstr "  --help              Mostra questo messaggio di aiuto ed esce\n"
+
+#: sheep/sheep.c:535
+msgid "  --version           Display the version and exit\n"
+msgstr "  --version           Mostra il numero di versione ed esce\n"
+
+#: sheep/sheep.c:536
+msgid "  --replace           Replace the currently running window manager\n"
+msgstr "  --replace           Sostituisce il gestore di finestre attivo\n"
+
+#. TRANSLATORS: if you translate "FILE" here, make sure to keep the "Specify..."
+#. aligned still, if you have to, make a new line with \n and 22 spaces. It's
+#. fine to leave it as FILE though.
+#: sheep/sheep.c:540
+msgid "  --config-file FILE  Specify the path to the config file to use\n"
+msgstr ""
+"  --config-file FILE  Specifica il percorso del file di configurazione\n"
+
+#: sheep/sheep.c:541
+msgid "  --sm-disable        Disable connection to the session manager\n"
+msgstr "  --sm-disable        Disabilita connessione al gestore di sessione\n"
+
+#: sheep/sheep.c:542
+msgid ""
+"\n"
+"Passing messages to a running Openbox instance:\n"
+msgstr ""
+"\n"
+"Inviare messaggi ad un'istanza di Openbox attiva:\n"
+
+#: sheep/sheep.c:543
+msgid "  --reconfigure       Reload Openbox's configuration\n"
+msgstr "  --reconfigure       Ricarica la configurazione di Openbox\n"
+
+#: sheep/sheep.c:544
+msgid "  --restart           Restart Openbox\n"
+msgstr "  --restart           Riavvia Openbox\n"
+
+#: sheep/sheep.c:545
+msgid "  --exit              Exit Openbox\n"
+msgstr "  --exit              Termina Openbox\n"
+
+#: sheep/sheep.c:546
+msgid ""
+"\n"
+"Debugging options:\n"
+msgstr ""
+"\n"
+"Opzioni di debug:\n"
+
+#: sheep/sheep.c:547
+msgid "  --sync              Run in synchronous mode\n"
+msgstr "  --sync              Esegue in modalità sincrona\n"
+
+#: sheep/sheep.c:548
+msgid "  --startup CMD       Run CMD after starting\n"
+msgstr ""
+
+#: sheep/sheep.c:549
+msgid "  --debug             Display debugging output\n"
+msgstr "  --debug             Mostra le informazioni di debug\n"
+
+#: sheep/sheep.c:550
+msgid "  --debug-focus       Display debugging output for focus handling\n"
+msgstr ""
+"  --debug-focus       Mostra le informazioni di debug sulla gestione del "
+"focus\n"
+
+#: sheep/sheep.c:551
+msgid "  --debug-session     Display debugging output for session management\n"
+msgstr ""
+
+#: sheep/sheep.c:552
+msgid "  --debug-xinerama    Split the display into fake xinerama screens\n"
+msgstr "  --debug-xinerama    Divide lo schermo per simulare xinerama\n"
+
+#: sheep/sheep.c:553
+#, c-format
+msgid ""
+"\n"
+"Please report bugs at %s\n"
+msgstr ""
+"\n"
+"Segnalate eventuali bug a %s\n"
+
+#: sheep/sheep.c:636 sheep/sheep.c:670
+#, c-format
+msgid "%s requires an argument\n"
+msgstr "%s richiede un argomento\n"
+
+#: sheep/sheep.c:713
+#, c-format
+msgid "Invalid command line argument \"%s\"\n"
+msgstr "Argomento da linea di comando non valido \"%s\"\n"
+
+#: sheep/screen.c:106 sheep/screen.c:191
+#, c-format
+msgid "A window manager is already running on screen %d"
+msgstr "Un gestore di finestre è già attivo sullo schermo %d"
+
+#: sheep/screen.c:127
+#, c-format
+msgid "Could not acquire window manager selection on screen %d"
+msgstr ""
+"Impossibile acquisire la selezione del gestore di finestre sullo schermo %d"
+
+#: sheep/screen.c:150
+#, c-format
+msgid "The WM on screen %d is not exiting"
+msgstr "Il gestore di finestre sullo schermo %d non è terminato"
+
+#. TRANSLATORS: If you need to specify a different order of the
+#. arguments, you can use %1$d for the first one and %2$d for the
+#. second one. For example,
+#. "The current session has %2$d desktops, but Openbox is configured for %1$d ..."
+#: sheep/screen.c:421
+#, c-format
+msgid ""
+"Openbox is configured for %d desktop, but the current session has %d.  "
+"Overriding the Openbox configuration."
+msgid_plural ""
+"Openbox is configured for %d desktops, but the current session has %d.  "
+"Overriding the Openbox configuration."
+msgstr[0] ""
+"Openbox è configurato per %d desktop, ma la sessione attuale ne ha %d.  "
+"Ignoro la configurazione di Openbox."
+msgstr[1] ""
+"Openbox è configurato per %d desktop, ma la sessione attuale ne ha %d.  "
+"Ignoro la configurazione di Openbox."
+
+#: sheep/screen.c:1204
+#, c-format
+msgid "desktop %i"
+msgstr "desktop %i"
+
+#: sheep/startupnotify.c:241
+#, c-format
+msgid "Running %s"
+msgstr "Sto eseguendo %s"
+
+#: sheep/translate.c:59
+#, c-format
+msgid "Invalid modifier key \"%s\" in key/mouse binding"
+msgstr ""
+"Il modificatore \"%s\" indicato nelle associazioni mouse/tastiera non è "
+"valido"
+
+#: sheep/translate.c:138
+#, c-format
+msgid "Invalid key code \"%s\" in key binding"
+msgstr ""
+"Il codice del tasto \"%s\" indicato nelle associazioni mouse/tastiera non è "
+"valido"
+
+#: sheep/translate.c:145
+#, c-format
+msgid "Invalid key name \"%s\" in key binding"
+msgstr ""
+"Il nome del tasto \"%s\" indicato nelle associazioni di mouse/tastiera non è "
+"valido"
+
+#: sheep/translate.c:151
+#, c-format
+msgid "Requested key \"%s\" does not exist on the display"
+msgstr "La chiave \"%s\" non esiste sullo schermo"
+
+#: sheep/prompt.c:154
+msgid "OK"
+msgstr "Ok"

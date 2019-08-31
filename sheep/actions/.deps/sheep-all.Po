@@ -1,0 +1,6 @@
+sheep/actions/sheep-all.o: sheep/actions/all.c /usr/include/stdc-predef.h \
+ sheep/actions/all.h
+
+/usr/include/stdc-predef.h:
+
+sheep/actions/all.h:
