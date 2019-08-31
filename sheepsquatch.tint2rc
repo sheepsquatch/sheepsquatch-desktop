@@ -108,7 +108,7 @@ launcher_icon_theme = "Papirus-Dark-Maia"
 
 # Desktop Menu
 button = new
-button_icon = ~/home/sheep/sheep.svg
+button_icon = ~/sheep/sheep.svg
 # I know, I know, but this as close to the Windows "flag" icon as it gets...
 button_background_id = 0
 button_padding = 6 2 0
