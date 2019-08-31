@@ -26,3 +26,7 @@ AUR: compton-tryone-git
 Run build.sh
 
 ### BOOM YA DONE
+
+## Screenies:
+
+![alt 1](https://i.imgur.com/UhDsNsU.png)
