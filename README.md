@@ -3,6 +3,7 @@ An Open Source Desktop based on Openbox by danakj, Tryone144's compton fork and 
 
 # CREDITS:
 https://github.com/danakj/openbox; https://github.com/tryone144/compton
+Hazuki - Redmond-X Tint2 Theme
 
 
 # Dependencies:
