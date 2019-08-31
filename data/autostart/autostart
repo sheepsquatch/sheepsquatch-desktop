@@ -18,7 +18,7 @@
 
 hsetroot -solid "#000000"
 (sleep 1; ~/.fehbg) &
-pcmanfm --desktop &
+spacefm --desktop &
 compton -b -c &
 xfce4-power-manager &
 dunst -config ~/.config/dunst/dunstrc &
