@@ -13,7 +13,14 @@ rofi hsetroot feh obconf xfce4-power-manager-gtk3 dunst libdbus libnotify tint2 
 
 
 # Getting Started:
-
+#### !!!IMPORTANT!!!
+You have to edit the tint2rc for your needs! (wonderfully made by hazuki over at gnome-look <3)<br/>
+The Default icons are set to:<br/>
+<br/>
+Terminal: lxterminal<br/>
+Files: pcmanfm<br/>
+Browser: Brave<br/>
+____________________________________
 Compile or get from AUR:<br/>
 git://github.com/tryone144/compton.git<br/>
 <br/>
