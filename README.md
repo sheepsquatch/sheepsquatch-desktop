@@ -28,14 +28,14 @@ AUR: compton-tryone-git<br/>
 <br/>
 (This fella did AMAZING work!!!)
 
-## For ULTIMATE EXPERIENCE:
-# I recommend the  Papirus icon theme
-# I recommend the Adapta Nokto Maia gtk theme
+# For ULTIMATE EXPERIENCE:
+## I recommend the  Papirus icon theme
+## I recommend the Adapta Nokto Maia gtk theme
 
 Run build.sh
 
-### BOOM YA DONE
+# BOOM YA DONE
 
-## Screenies:
+# Screenies:
 
 ![alt 1](https://i.imgur.com/UhDsNsU.png)
