@@ -14,7 +14,7 @@ rofi hsetroot feh obconf xfce4-power-manager-gtk3 dunst libdbus libnotify tint2 
 
 # Getting Started:
 #### !!!IMPORTANT!!!
-You have to edit the tint2rc for your needs! (wonderfully made by hazuki over at gnome-look <3)<br/>
+You have to edit the tint2rc AND compton.conf for your needs! (wonderfully made by hazuki over at gnome-look <3)<br/>
 The Default icons are set to:<br/>
 <br/>
 Terminal: lxterminal<br/>
@@ -38,6 +38,6 @@ Run build.sh
 
 # Screenies:
 
-![alt 1](https://imgur.com/99UVKc2.png)
+![alt 1](https://imgur.com/hBtAVta.png)
 
 
