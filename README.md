@@ -16,7 +16,7 @@ It's Makers - Adapta-Nokto-Maia GTK Theme;<br/>
 Noah_The_Blob - Inspiration with his flurry desktop, loved it!<br/> 
 
 # Prerequisites:
-rofi hsetroot feh xfce4-power-manager-gtk3 dunst libdbus 
+ffmpeg rofi hsetroot feh xfce4-power-manager-gtk3 dunst libdbus 
 libnotify tint2 clipit volumeicon lxappearance jgmenu pcmanfm lxsession 
 spacefm
 ## Use at your own risk!
