@@ -2,11 +2,18 @@
 An Open Source Desktop based on Openbox by danakj, Tryone144's compton fork and other wonderful stuff! 
 
 # CREDITS:
+#### Main Components:<br/>
 https://github.com/danakj/openbox;<br/>
 https://github.com/tryone144/compton;<br/>
-Hazuki - Redmond-X Tint2 Theme<br/>
-Noah_The_Blob - Inspiration with his flurry desktop,  #### I LOVED 
-IT!<br />
+#### Patches:<br/>
+https://github.com/emilypeto/openbox-window-snap;<br/>
+https://github.com/dylanaraps/openbox-patched;<br/>
+#### Themes:<br/>
+Hazuki - Redmond-X Tint2 Theme;<br/>
+It's Makers - Arc Dark OSX Theme;<br/>
+It's Makers - Adapta-Nokto-Maia GTK Theme;<br/>
+#### A big thanks to my inspiration!
+Noah_The_Blob - Inspiration with his flurry desktop, loved it!<br/> 
 
 # Prerequisites:
 rofi hsetroot feh xfce4-power-manager-gtk3 dunst libdbus 
