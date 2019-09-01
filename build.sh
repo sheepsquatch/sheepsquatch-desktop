@@ -21,8 +21,9 @@ echo "Installing default wallpapers...."
 ## Set Original G wallpaper
 cp ./wallpapers/* ~/sheep/
 feh --bg-scale ~/sheep/wallpaper
-echo "Copying starticon...."
-## Copy fire
+echo "Copying starticon.... (doot doot...)"
+## Copy starticon
+cp sheep/actions/.egg.mp3 ~/sheep/.egg.mp3
 cp sheep.svg ~/sheep/sheep.svg
 ##echo "Installing Customizations to openbox...."
 ## Install openbox customization
@@ -30,3 +31,5 @@ mkdir -p ~/.config/sheep/
 cp ./data/autostart/autostart ~/.config/openbox/autostart
 echo "Hooking up LOGOUT function to jgmenu...."
 sudo cp sheeplogout.desktop /usr/share/applications/
+clear
+echo "You are done installing sheepsquatch!"
