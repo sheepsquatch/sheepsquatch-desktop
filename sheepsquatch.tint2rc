@@ -114,7 +114,7 @@ button_background_id = 0
 button_padding = 6 2 0
 button_icon_size = 32
 button_max_icon_size = 32
-button_lclick_command = jgmenu --config-file=/etc/sheep/jgrc
+button_lclick_command = jgmenu_run
 
 # URxvt
 button = new

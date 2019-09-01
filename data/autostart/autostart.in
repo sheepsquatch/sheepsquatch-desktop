@@ -24,5 +24,5 @@ xfce4-power-manager &
 dunst -config ~/.config/dunst/dunstrc &
 tint2 -c /etc/sheep/tint2rc &
 volumeicon &
-lxsession
-
+lxsession &
+jgmenu --config-file=/etc/sheep/jgrc --hide-on-startup
