@@ -21,10 +21,10 @@
 rounded = 0
 
 border_width = 1
-border_color = #000000 60
+border_color = #000000 80
 border_sides = TBLR
 
-background_color = #000000 40
+background_color = #000000 60
 # Background 2 - Taskbar Items/Normal State
 rounded = 0
 
@@ -38,9 +38,9 @@ border_color = #303030 100
 # Background 3 - Taskbar Items/Active State
 rounded = 0
 
-background_color = #ffffff 30
+background_color = #ffffff 0
 
-border_width = 3
+border_width = 5
 border_sides = B
 border_color = #298fcc 100
 
