@@ -51,6 +51,5 @@ Run build.sh
 #### Rounded Corners!
 ![alt 1](https://imgur.com/eVkyY1T.png)
 
-#### Tiling/Snapping !
-![alt 2](https://imgur.com/9HChAfZ.png)
+# Snapping has been reverted until fixed!
 
