@@ -48,9 +48,9 @@ Run build.sh
 
 # Screenies:
 
-#### New Theme (Arc-Dark-OSX merged with Adapta-Nokto-Maia):
-![alt 1](https://imgur.com/bfpA5Yy.png)
-
 #### Rounded Corners!
-![alt 2](https://imgur.com/eVkyY1T.png)
+![alt 1](https://imgur.com/eVkyY1T.png)
+
+#### Tiling/Snapping !
+![alt 2](https://imgur.com/9HChAfZ.png)
 
