@@ -45,7 +45,7 @@ AUR: compton-tryone-git<br/>
 Run build.sh
 
 # BOOM YA DONE
-
+# Wallpapers are in /etc/sheep/walls/ :)
 # Screenies:
 
 #### Rounded Corners!

@@ -5,30 +5,25 @@
 make
 sudo make install
 echo "Installing Tint2 Theme...."
-mkdir ~/.config/tint2/
+sudo mkdir /etc/sheep/
 ## Install Tint2 Theme
-cp sheepsquatch.tint2rc ~/.config/tint2/tint2rc
+sudo cp sheepsquatch.tint2rc /etc/sheep/tint2rc
 ## Compton
-cp compton.conf ~/.config/compton.conf
+sudo cp compton.conf /etc/sheep/compton.conf
 ## Install Menu theme
 echo "Installing Start Menu Theme...."
-mkdir ~/.config/jgmenu
-cp sheepsquatchJGRC ~/.config/jgmenu/jgmenurc
-echo "Creating ~/sheep/ dir...."
-## Create Sheep Dir
-mkdir ~/sheep/
+sudo cp sheepsquatchJGRC /etc/sheep/jgrc
+## Create Wall folder
+sudo mkdir /etc/sheep/walls/
 echo "Installing default wallpapers...."
 ## Set Original G wallpaper
-cp ./wallpapers/* ~/sheep/
-feh --bg-scale ~/sheep/wallpaper
+sudo cp ./wallpapers/* /etc/sheep/walls/
+feh --bg-scale /etc/sheep/walls/wall
 echo "Copying starticon.... (doot doot...)"
 ## Copy starticon
-cp sheep/actions/.egg.mp3 ~/sheep/.egg.mp3
-cp sheep.svg ~/sheep/sheep.svg
+sudo cp sheep/actions/.egg.mp3 /etc/sheep/.egg.mp3
+sudo cp sheep.svg /etc/sheep/sheep.svg
 ##echo "Installing Customizations to openbox...."
-## Install openbox customization
-mkdir -p ~/.config/sheep/
-cp ./data/autostart/autostart ~/.config/openbox/autostart
 echo "Hooking up LOGOUT function to jgmenu...."
 sudo cp sheeplogout.desktop /usr/share/applications/
 clear

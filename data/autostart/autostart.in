@@ -19,10 +19,10 @@
 hsetroot -solid "#000000"
 (sleep 1; ~/.fehbg) &
 spacefm --desktop &
-compton -b -c &
+compton -b -c --config /etc/sheep/compton.conf &
 xfce4-power-manager &
 dunst -config ~/.config/dunst/dunstrc &
-tint2 &
+tint2 -c /etc/sheep/tint2rc &
 volumeicon &
 lxsession
 
