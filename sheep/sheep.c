@@ -517,7 +517,10 @@ static void signal_handler(gint signal, gpointer data)
 
 static void print_version(void)
 {
-    g_print("Openbox %s\n", PACKAGE_VERSION);
+    g_print("Sheepsquatch Desktop Environment 1\n\n");
+    g_print("Sheepsquatch Desktop Environment is developed using several individuals resources. Original idea by Sheepsquatch.\n\n");
+    g_print("Inspired by the Flurry Desktop by Noah_The_Blob\n\n");
+    g_print("OPENBOX COPYRIGHT:\n");
     g_print(_("Copyright (c)"));
     g_print(" 2004   Mikael Magnusson\n");
     g_print(_("Copyright (c)"));
@@ -530,7 +533,7 @@ static void print_version(void)
 static void print_help(void)
 {
     g_print(_("Syntax: sheep [options]\n"));
-    g_print(_("\nOptions:\n"));
+    g_print(_("Options:\n"));
     g_print(_("  --help              Display this help and exit\n"));
     g_print(_("  --version           Display the version and exit\n"));
     g_print(_("  --replace           Replace the currently running window manager\n"));
@@ -539,18 +542,18 @@ static void print_help(void)
        fine to leave it as FILE though. */
     g_print(_("  --config-file FILE  Specify the path to the config file to use\n"));
     g_print(_("  --sm-disable        Disable connection to the session manager\n"));
-    g_print(_("\nPassing messages to a running Openbox instance:\n"));
-    g_print(_("  --reconfigure       Reload Openbox's configuration\n"));
-    g_print(_("  --restart           Restart Openbox\n"));
-    g_print(_("  --exit              Exit Openbox\n"));
-    g_print(_("\nDebugging options:\n"));
+    g_print(_("Passing messages to a running Sheepsquatch instance:\n"));
+    g_print(_("  --reconfigure       Reload Sheepsquatch's configuration\n"));
+    g_print(_("  --restart           Restart Sheepsquatch\n"));
+    g_print(_("  --exit              Exit Sheepsquatch\n"));
+    g_print(_("Debugging options:\n"));
     g_print(_("  --sync              Run in synchronous mode\n"));
     g_print(_("  --startup CMD       Run CMD after starting\n"));
     g_print(_("  --debug             Display debugging output\n"));
     g_print(_("  --debug-focus       Display debugging output for focus handling\n"));
     g_print(_("  --debug-session     Display debugging output for session management\n"));
     g_print(_("  --debug-xinerama    Split the display into fake xinerama screens\n"));
-    g_print(_("\nPlease report bugs at %s\n"), PACKAGE_BUGREPORT);
+    g_print(_("Please report bugs at https://github.com/sheepsquatch/sheepsquatch-desktop/\n"));
 }
 
 static void remove_args(gint *argc, gchar **argv, gint index, gint num)
